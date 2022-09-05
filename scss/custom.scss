@@ -1,3 +1,68 @@
 body {
     font-family: "Poppins", "sans-sarif";
+    font-size: 16px;
+}
+
+.navbar-brand {
+    max-width: 200px;
+    height: 60px;
+}
+
+.btn {
+    width: 104px;
+    height: 43px;
+    border-radius: 33px;
+    padding: 12px, 28px, 12px, 28px;
+    font-weight: 400;
+    font-size: inherit;
+    color: #ffffff;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.btn-lg {
+    width: 153px;
+    padding: 12px, 36px, 12px, 36px;
+    font-size: inherit;
+}
+
+.nav-item {
+    .nav-link {
+        height: 34px;
+        margin-left: 30px;
+        color: #000000;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+
+section.hero {
+    min-height: 460px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .row {
+        min-height: 350px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 70px;
+        }
+
+        .hero-text {
+            font-weight: 400;
+            line-height: 36px;
+            color: #000000;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 36px !important;
+        line-height: 50px !important;
+    }
 }

@@ -1,1 +1,14 @@
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1040px,
+    xxl: 1170px
+);
 
+$btn-font-size: 16px;
+$btn-font-family: "poppins", "sans-serif";
+
+$success: #21b573;
+$warning: #FD511A;
+$secondary: #6C6B6B;
